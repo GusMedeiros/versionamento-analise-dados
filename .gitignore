@@ -135,6 +135,7 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+env
 
 # Spyder project settings
 .spyderproject
@@ -178,7 +179,7 @@ cython_debug/
 #  that can be found at https://github.com/github/gitignore/blob/main/Global/VisualStudioCode.gitignore
 #  and can be added to the global gitignore or merged into this file. However, if you prefer, 
 #  you could uncomment the following to ignore the enitre vscode folder
-# .vscode/
+.vscode/
 
 # Ruff stuff:
 .ruff_cache/
@@ -197,3 +198,5 @@ repositories-mined
 
 *.pkl
 *.feather
+
+rascunho.py
